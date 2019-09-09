@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/keycloak-sms-authenticator.iml" filepath="$PROJECT_DIR$/keycloak-sms-authenticator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms-authenticator.iml" filepath="$PROJECT_DIR$/sms-authenticator.iml" />
     </modules>
   </component>
 </project>

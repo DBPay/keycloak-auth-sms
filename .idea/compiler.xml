@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="keycloak-sms-authenticator" />
+        <module name="sms-authenticator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="keycloak-sms-authenticator" target="1.8" />
+      <module name="sms-authenticator" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
