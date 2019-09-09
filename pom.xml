@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ai.dbpay.keycloak</groupId>
-    <artifactId>keycloak-auth-otp</artifactId>
+    <artifactId>keycloak-auth-sms</artifactId>
     <name>Keycloak SMS Authenticator</name>
     <version>7.0.0</version>
     <packaging>jar</packaging>
@@ -48,11 +48,6 @@
             <version>1.0.1.Final</version>
         </dependency>
         <dependency>
-            <groupId>com.twilio.sdk</groupId>
-            <artifactId>twilio</artifactId>
-            <version>7.17.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20180813</version>
@@ -77,8 +72,9 @@
             </exclusions>
         </dependency>
     </dependencies>
+
     <build>
-        <finalName>sms-authenticator</finalName>
+        <finalName>keycloak-auth-sms</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -88,6 +84,7 @@
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
@@ -95,6 +92,7 @@
                     <skip>false</skip>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -113,6 +111,8 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
+
     </build>
 </project>
