@@ -7,12 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="keycloak-sms-authenticator" />
-        <module name="sms-authenticator" />
+        <module name="sms-provider-twilio" />
+        <module name="sms-provider-yunpian" />
+        <module name="core" />
+        <module name="sms-provider-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="core" target="1.8" />
+      <module name="keycloak-auth-sms" target="1.8" />
       <module name="keycloak-sms-authenticator" target="1.8" />
       <module name="sms-authenticator" target="1.7" />
+      <module name="sms-provider-api" target="1.8" />
+      <module name="sms-provider-chuanglan" target="1.8" />
+      <module name="sms-provider-spi" target="1.8" />
+      <module name="sms-provider-twilio" target="1.8" />
+      <module name="sms-provider-yunpian" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

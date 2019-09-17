@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keycloak-auth-sms.iml" filepath="$PROJECT_DIR$/keycloak-auth-sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/keycloak-sms-authenticator.iml" filepath="$PROJECT_DIR$/keycloak-sms-authenticator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sms-authenticator.iml" filepath="$PROJECT_DIR$/sms-authenticator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms-provider-api/sms-provider-api.iml" filepath="$PROJECT_DIR$/sms-provider-api/sms-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms-provider-twilio/sms-provider-twilio.iml" filepath="$PROJECT_DIR$/sms-provider-twilio/sms-provider-twilio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms-provider-yunpian/sms-provider-yunpian.iml" filepath="$PROJECT_DIR$/sms-provider-yunpian/sms-provider-yunpian.iml" />
     </modules>
   </component>
 </project>
